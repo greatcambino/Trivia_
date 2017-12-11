@@ -6,23 +6,55 @@ html {
 h1 {
     font-family: 'Gravitas One', cursive;    
     font-size: 50px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;  
+    background-image: url(../img/wordjumble.jpg); 
 }
 
 h2 {
     font-family: 'Gravitas One', cursive;        
     font-size: 30px;
+    text-align: center;
 }
+
 
 p1 {
     font-family: 'Gravitas One', cursive;
     font-family: 'Abril Fatface', cursive;
-    font-size: 20px
+    font-size: 20px;
+    text-align: center;
+}
+
+p2 {
+    font-family: 'Gravitas One', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
 }
 
 .button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px; 
     width: 600px; 
     background-color: white;
     font-family: 'Gravitas One', cursive;
-    align-content: center;
+    font-family: 'Abril Fatface', cursive;    
+    font-size: 20px;
+    margin: 30px;
 }
+
+.btn-group button {
+    background-color:green;
+    border: 1px solid green;
+    color: white;
+    padding: 10px 24px;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; 
+}
+
