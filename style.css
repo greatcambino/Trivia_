@@ -1,0 +1,28 @@
+html {
+    background: rgb(247, 245, 245)    
+}
+
+
+h1 {
+    font-family: 'Gravitas One', cursive;    
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Gravitas One', cursive;        
+    font-size: 30px;
+}
+
+p1 {
+    font-family: 'Gravitas One', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px
+}
+
+.button1 {
+    height: 50px; 
+    width: 600px; 
+    background-color: white;
+    font-family: 'Gravitas One', cursive;
+    align-content: center;
+}
