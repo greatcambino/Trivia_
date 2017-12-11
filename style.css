@@ -8,10 +8,11 @@ h1 {
     font-size: 50px;
     margin: auto;
     width: 50%;
+    height: 90px;
     border: 3px solid white;
-    padding: 10px;
+    padding: 70px;
     text-align: center;  
-    background-image: url(../img/wordjumble.jpg); 
+    background-image: url("/img/wordjumble.jpg"); 
 }
 
 h2 {
@@ -26,35 +27,54 @@ p1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 20px;
     text-align: center;
+    margin: 30px;
+    padding: 50px;
 }
 
 p2 {
     font-family: 'Gravitas One', cursive;
     font-family: 'Abril Fatface', cursive;
     font-size: 25px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 .button1 {
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: auto;    
     height: 50px; 
     width: 600px; 
     background-color: white;
     font-family: 'Gravitas One', cursive;
     font-family: 'Abril Fatface', cursive;    
     font-size: 20px;
-    margin: 30px;
+    cursor: pointer;
+    background-color: green;
+    border: 1px solid rgb(218, 218, 218);
+    color: white;
+    padding: 10px 24px;    
 }
 
 .btn-group button {
-    background-color:green;
-    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    margin: auto;
+    font-family: 'Gravitas One', cursive;
+    font-family: 'Abril Fatface', cursive; 
+    height: 50px; 
+    width: 600px; 
+    font-size: 20px;
+    background-color: green;
+    border: 1px solid rgb(218, 218, 218);
     color: white;
     padding: 10px 24px;
-    margin: 20px;
     cursor: pointer;
-    display: flex;
-    flex-direction: column; 
+   
 }
 
