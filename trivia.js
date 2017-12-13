@@ -20,15 +20,10 @@ function changeScore () {
 // create button event listeners on page load
 createButtonEvents();
 
-// var score = document.getElementsByClassName("points")
 
 
 
-// const correctAnswers = document.querySelector('.btn-group')
 
-// var button2 = document.getElementsByClassName("correctChoice").addEventListener ("click", function () {
-//     document.getElementsByClassName("points") = score + 10; 
-// })
 
 
 

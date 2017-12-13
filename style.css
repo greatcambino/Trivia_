@@ -38,8 +38,19 @@ h5 {
     margin: 0;
 }
 
+h6{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
 p1 {
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 p2 {
