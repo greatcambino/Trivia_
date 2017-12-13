@@ -1,21 +1,24 @@
 html{
-    background: rgba(175, 255, 47, 0.808)
+    background: rgba(255, 200, 47, 0.856)
 }
 
 body {
     display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
     font-family: 'Archivo Black', sans-serif; 
-    font-size: 70px; 
-    text-align: center;  
+    font-size: 90px; 
+    text-align: center;
+    margin: 0, 5px;  
 }
-
 
 h2{
     font-family: 'Archivo Black', sans-serif;  
     font-size: 16px; 
+    margin: 10px;
+    text-align: left;
 }
 
 h3 {
@@ -24,108 +27,54 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Archivo Black', sans-serif; 
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;
+}
+
 p1 {
     font-family: 'Nunito Sans', sans-serif;
 }
 
 p2 {
-    font-family: 'Nunito Sans', sans-serif;    
+    font-family: 'Nunito Sans', sans-serif; 
+    text-align: center;
+    line-height: 30px;
+    align-content: center;
 }
 
 .btn-group {
     cursor: pointer;
+    display: flex;
 }
 
 .scoreKeeper {
     font-family:'Archivo Black', sans-serif; 
     font-size: 30px;
     text-align: center;
+    margin: 10px;
 }
 
 .points {
     background-color: #E3E3E3;
-    border: 1px solid #676767;
+    border: 2px solid #676767;
     border-radius: 15px;
-    font-family: 'Ruluko', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 50px;
     margin: 5px;
     padding: 25px 0px;
     align-content: center;
     text-align: center;
+    height: 60px;
+    width: 300px;
 }
 
-/* h1 {
-    font-family: 'Gravitas One', cursive;    
-    font-size: 50px;
-    margin: auto;
-    width: 50%;
-    height: 90px;
-    border: 3px solid white;
-    padding: 70px;
-    text-align: center;  
-    background-image: url("/img/wordjumble.jpg"); 
+.id {
+    font-family: 'Archivo Black', sans-serif;
 }
-
-h2 {
-    font-family: 'Gravitas One', cursive;        
-    font-size: 30px;
-    text-align: center;
-}
-
-
-p1 {
-    font-family: 'Gravitas One', cursive;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 20px;
-    text-align: center;
-    margin: 30px;
-    padding: 50px;
-}
-
-p2 {
-    font-family: 'Gravitas One', cursive;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 25px;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-}
-
-.button1 {
-    display: flex;
-    justify-content: center;
-    margin: auto;    
-    height: 50px; 
-    width: 600px; 
-    background-color: white;
-    font-family: 'Gravitas One', cursive;
-    font-family: 'Abril Fatface', cursive;    
-    font-size: 20px;
-    cursor: pointer;
-    background-color: green;
-    border: 1px solid rgb(218, 218, 218);
-    color: white;
-    padding: 10px 24px;    
-}
-
-.btn-group button {
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    align-items: center;
-    margin: auto;
-    font-family: 'Gravitas One', cursive;
-    font-family: 'Abril Fatface', cursive; 
-    height: 50px; 
-    width: 600px; 
-    font-size: 20px;
-    background-color: green;
-    border: 1px solid rgb(218, 218, 218);
-    color: white;
-    padding: 10px 24px;
-    cursor: pointer;
-   
-} */ 
-

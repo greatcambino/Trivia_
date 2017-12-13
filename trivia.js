@@ -1,20 +1,34 @@
-class question {
-    constructor(question, choice1, choice2, choice3, correctChoice) {
-        this.question = ""
-        this.choice1 = ""
-        this.choice2 = ""
-        this.choice3 = ""
-        this.correctChoice = ""
-    }
 
-    checkAnswer(userChoice){
+
+// global variables 
+var correctChoices = document.getElementsByClassName("correctChoice")
+var score = 0
+
+function createButtonEvents() {
+    for (let i = 0; i < correctChoices.length ;  i++) {
+        console.log(correctChoices[i])
+        correctChoices[i].addEventListener ("click", changeScore)
     }
 }
 
-const question1 = new question('"JK" Rowling?', "Jennifer Kristin", "Julia Kate", "Jane Kennedy", "Joanne K.")
-const question2 = new question('"RL" Stine?', "Richard Langdon", "Robert London", "Ricky LeFleur", "Robert Lawrence")
-const question3 = new question('"CS" Lewis?', "Corey Smitka", "Charles Sweeney", "Christopher Stine", "Clive Staples")
+function changeScore () {
+    score += 10
+    console.log(score) 
+    document.getElementById('score').innerHTML = score
+}
+
+// create button event listeners on page load
+createButtonEvents();
+
+// var score = document.getElementsByClassName("points")
 
 
-const 
-\\\\\\
+
+// const correctAnswers = document.querySelector('.btn-group')
+
+// var button2 = document.getElementsByClassName("correctChoice").addEventListener ("click", function () {
+//     document.getElementsByClassName("points") = score + 10; 
+// })
+
+
+
