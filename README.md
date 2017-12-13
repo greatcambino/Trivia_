@@ -1,12 +1,12 @@
 # Trivia!
-A trivia game made for testing User knowledge of first initials used by famous literary figures in history.  
+A trivia game made to test a user's knowledge of the first initials used by famous literary figures in history.  
 
 
 # Installation Instructions
 To set up the app locally on your own system: 
 
 1. 
-<!-- These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. -->
+
 
 # Built With
 * Vanilla JavaScript 
@@ -18,7 +18,9 @@ To set up the app locally on your own system:
     - I put the multiple choice questions into a 'class' so that their formatting and DOM manipulation would be synchronized across questions. 
 
 * JavaScript: 
-    - 
+    - Created an array of 'correctChoice' buttons, Set starting score to 0  
+    - Created a 'for-loop' that loops through the HTML and adds an event listener for each button in 'correctChoices array. 
+    - Created a function that adds 10 points when 'correctChoice' buttons are clicked. There is no event if the user clicks a wrong choice. 
 
 
 # Unsolved problems 
@@ -36,4 +38,5 @@ To set up the app locally on your own system:
 
 # Special Thanks..
 * Julian - CSS inspiration
-* Justin - javaScript help 
+* Gwen - JavaScript help 
+* Justin - JavaScript help 
