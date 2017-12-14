@@ -23,6 +23,7 @@ createButtonEvents();
 
 
 
+// setAttribute('disabled', true)
 
 
 
