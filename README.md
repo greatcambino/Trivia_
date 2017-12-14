@@ -2,7 +2,6 @@
 A trivia game made to test a user's knowledge of the first initials used by famous literary figures in history.  
 
 
-
 # Built With
 * Vanilla JavaScript 
 
@@ -16,14 +15,11 @@ A trivia game made to test a user's knowledge of the first initials used by famo
     - Created an array of 'correctChoice' buttons, Set starting score to 0  
     - Created a 'for-loop' that loops through the HTML and adds an event listener for each button in 'correctChoices array. 
     - Created a function that adds 10 points when 'correctChoice' buttons are clicked. There is no event if the user clicks a wrong choice. 
+        - Within that function I also added a feature that disables 'correctChoice' buttons once they are clicked. 
 
 
 # Unsolved problems 
-- Would have liked to add a feature where something happens to notify users of a wrong choice clicked (subtract points, unable to alter click choice, etc.)
-
 - A 'submit' button for user to click when the test is completed. 
-
-- A special screen that appears when users have completed the quiz ("Looks like you got ('#') out of ('#') correct.)
 
 - Time-based scoring
 
