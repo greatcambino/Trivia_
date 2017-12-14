@@ -1,6 +1,7 @@
 # Trivia!
-A trivia game made to test a user's knowledge of the first initials used by famous literary figures in history.  
+A trivia game to test someone's knowledge of the first initials used by famous literary figures in history.  
 
+(https://greatcambino.github.io/Trivia/)
 
 # Built With
 * Vanilla JavaScript 
@@ -8,8 +9,8 @@ A trivia game made to test a user's knowledge of the first initials used by famo
 
 # Approach taken 
 * HTML/CSS: 
-    - I broke the page into three sections and then used Flexbox to arrange them on the page. Then I used flex-wrap because it provided a better-looking arragement of the header + questions.
-    - I put the multiple choice questions into a 'class' so that their formatting and DOM manipulation would be synchronized across questions. 
+    - Broke the page into three sections and then used Flexbox to arrange them on the page. Then applied flex-wrap because it provided a better-looking arragement of the header + questions.
+    - Placed the multiple choice questions into a 'class' so that their formatting and DOM manipulation would be synchronized across questions. 
 
 * JavaScript: 
     - Created an array of 'correctChoice' buttons, Set starting score to 0  
