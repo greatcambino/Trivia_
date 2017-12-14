@@ -2,11 +2,6 @@
 A trivia game made to test a user's knowledge of the first initials used by famous literary figures in history.  
 
 
-# Installation Instructions
-To set up the app locally on your own system: 
-
-1. 
-
 
 # Built With
 * Vanilla JavaScript 
@@ -35,8 +30,3 @@ To set up the app locally on your own system:
 - Track scores across games (even if the page is reloaded)
 
 - Allow users to compete against each other on a high-score board
-
-# Special Thanks..
-* Julian - CSS inspiration
-* Gwen - JavaScript help 
-* Justin - JavaScript help 

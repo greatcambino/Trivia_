@@ -8,15 +8,18 @@ var score = 0
 function createButtonEvents() {
     for (let i = 0; i < correctChoices.length ;  i++) {
         console.log(correctChoices[i])
-        correctChoices[i].addEventListener ("click", changeScore)
+        correctChoices[i].addEventListener ("click", clickAndAdd)
     }
 }
-// an extension of above above for-loop that adds 10 points to user's score when 'correctChoice' buttons are clicked. 
-function changeScore () {
+// an extension of the above for-loop that adds 10 points to user's score when 'correctChoice' buttons are clicked. 
+// this function also disables the correct choice once clicked
+function clickAndAdd () {
+    this.setAttribute('disabled', true)
     score += 10
     console.log(score) 
-    document.getElementById('score').innerHTML = score
+    document.getElementById('score').innerHTML = score      
 }
+
 
 // create button event listeners on page load
 createButtonEvents();
