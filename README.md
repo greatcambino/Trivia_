@@ -1,9 +1,11 @@
 # Trivia!
-A trivia game to test a user's knowledge of famous writers who go by their initials. 
+A trivia game that test's a user's knowledge of famous writers who go by their initials. 
 
 (https://greatcambino.github.io/Trivia/)
 
 # Built With
+* HTML5
+* CSS3
 * (Vanilla) JavaScript 
 
 
